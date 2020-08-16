@@ -41,7 +41,7 @@ python utils/n_frames_ucf101_hmdb51.py jpg_video_directory
 python utils/ucf101_json.py annotation_dir_path
 ```
 
-After all of this steps, the data folder should have the following structure:
+> :exclamation: After all of this steps, the data folder should have the following structure:
 <pre>
 data
 │   
