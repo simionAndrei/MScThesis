@@ -76,7 +76,32 @@ data
 └───
 </pre>
 
+## Config file :bookmark_tabs:
 
+<pre>
+{
+	"data_folder": "data",
+	"video_folder": "ucf101_videos",   <em>ucf101_videos or hmdb51_videos</em>
+	"frame_folder": "jpg",
+	"annotation_file": "ucf101_01.json",   <em>ucf101_01.json or hmdb51_1.json for the 1st split</em>
+	"base_convnet": "resnet18",
+	"simclr_out_dim": 256,
+	"dataset_type": "ucf101",   <em>ucf101 or hmdb51</em>
+ 	"num_classes": 101,   <em>101 for UCF101 or 51 for HMDB51</em>
+	"strength": 0.5,
+	"temp": 0.5,
+	"batch_size": 256,
+	"frame_resize": 56,   <em>56 or 224</em>
+  	"sampling_method": "rand32", 
+	"temporal_transform_type": "shift",   <em>shift, drop, shuffle, reverse</em>
+	"temporal_transform_step": 8,   <em>shift step size</em>
+  	"same_per_clip": "True",   <em>False for Frame-mode and True for Chunk-mode</em>
+	"model_checkpoint_epoch": 0,   <em> if !=0, load from checkpoint file</em>
+	"model_checkpoint_file": ".ptm",   <em>PyTorch saved checkpoint for checkpoint epoch</em>
+	"num_epochs": 100,
+	"num_workers": 4,  <em>DataLoader number of workers, set accordingly to number of GPUs</em>
+}
+</pre>
 
 
 ## Installation :computer:
