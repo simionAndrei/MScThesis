@@ -1,6 +1,8 @@
 # :arrow_down: MScThesis :mortar_board: TU Delft :arrow_down:
 ## Contrastive Learning of Visual Representations from Unlabeled Videos :video_camera:
 
+![Overview](overview.jpg)  
+
 Code for my Master Thesis conducted inside the [Pattern Recognition & Bioinformatics research group](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/intelligent-systems/pattern-recognition-bioinformatics/) from Delft University of Technology.
 
 My supervisors:
