@@ -121,4 +121,5 @@ Inside that environment some addition packages needs to be installed. Run the fo
 
 
 ## Acknowledgements :wave:
-Part of this code is inspired by [Hara et al. 3D Resnets repo](https://github.com/kenshohara/3D-ResNets-PyTorch).
+* Part of this code is inspired by [Hara et al. 3D Resnets repo](https://github.com/kenshohara/3D-ResNets-PyTorch).
+* Part of scripts from `videoMOCO_scripts` adapted from [He et al. Momentum Contrast repo](https://github.com/facebookresearch/moco)
