@@ -119,6 +119,20 @@ Inside that environment some addition packages needs to be installed. Run the fo
 }
 </pre>
 
+## Usage :arrow_forward:
+
+### Pre-training
+* `train_videos_3d.py` for videoSimCLR pre-training
+* `train_videos_3d_supervised.py` for fully supervised pre-training
+
+### Linear Evaluation
+* `Evaluation_ResNet18_3D_videos.ipynb` for videoSimCLR
+* `Evaluation_ResNet18_3D_videos_kinetics.ipynb` for Kinetics pre-trained
+* `Evaluation_ResNet18_3D_videos_supervised.ipynb` for supervised pre-trained
+
+### Fine-tuning
+* `fine_tune.py`
+
 
 ## Acknowledgements :wave:
 * Part of this code is inspired by [Hara et al. 3D Resnets repo](https://github.com/kenshohara/3D-ResNets-PyTorch).
