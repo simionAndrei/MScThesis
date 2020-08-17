@@ -1,5 +1,5 @@
-# :arrow_down: MScThesis TU Delft :arrow_down:
-## Contrastive Learning of Visual Representations from Unlabeled Videos 
+# :arrow_down: MScThesis :mortar_board: TU Delft :arrow_down:
+## Contrastive Learning of Visual Representations from Unlabeled Videos :video_camera:
 
 Code for my Master Thesis conducted inside the [Pattern Recognition & Bioinformatics research group](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/intelligent-systems/pattern-recognition-bioinformatics/) from Delft University of Technology.
 
@@ -11,7 +11,7 @@ My supervisors:
 
 For pre-training and evaluation, two action recognition datasets needs to be downloaded: HMDB51 and UCF101.
 
-### HMDB51
+### HMDB51 :movie_camera:
 * Download the train/test splits from [here](https://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/)
 * Convert from avi to jpg:
 ```shell
@@ -26,7 +26,7 @@ python utils/n_frames_ucf101_hmdb51.py jpg_video_directory
 python utils/hmdb51_json.py annotation_dir_path
 ```
 
-### UCF101
+### UCF101 :movie_camera:
 * Download the train/test splits from [here](https://www.crcv.ucf.edu/data/UCF101.php)
 * Convert from avi to jpg:
 ```shell
@@ -116,3 +116,5 @@ Inside that environment some addition packages needs to be installed. Run the fo
 (nonexpert_video) conda install -c pytorch torchvision 
 ```
 
+## Acknowledgements :wave:
+Part of this code is inspired by [Hara et al. 3D Resnets repo](https://github.com/kenshohara/3D-ResNets-PyTorch).
