@@ -90,6 +90,8 @@ Inside that environment some addition packages needs to be installed. Run the fo
 (nonexpert_video) conda install -c conda-forge tqdm 
 ```
 
+> :exclamation: For GPU support, NVIDIA CUDA compatible graphic card is needed with proper drivers installed.
+
 ## Config file :bookmark_tabs:
 
 <pre>
