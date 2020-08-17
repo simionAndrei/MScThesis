@@ -135,6 +135,8 @@ Inside that environment some addition packages needs to be installed. Run the fo
 ### Fine-tuning
 * `fine_tune.py`
 
+For running the scripts from `videoMOCO_scripts` folder, make sure to either copy the `data` folder inside the `videoMOCO_scripts` folder or change the data folder path from the config.txt to point to the `data` folder from the root.
+
 
 ## Acknowledgements :wave:
 * Part of this code is inspired by [Hara et al. 3D Resnets repo](https://github.com/kenshohara/3D-ResNets-PyTorch).
